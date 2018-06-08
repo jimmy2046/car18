@@ -1,24 +1,12 @@
-# README
+# Car18 README
+Car18 Ruby on Rails project was created on Jun 7, 2018
+* Ruby version: ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-linux]
+* Rails version: Rails 5.1.6
+* Database version: PostgreDB 'pg', '>= 0.18', '< 2.0'
+* Linux version: Ubuntu Linux 16.04
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Heroku Deployment
+* Heroku URL: TBD
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Revision History
+* Jun 7, 2018: Initialized repository
