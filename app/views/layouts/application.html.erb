@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-<!--    <title>Car18</title> -->
-    <title><%= yield(:title) %> | Car18 </title>
+    <title>Car Travel in Seattle - My Car Travel</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -36,17 +35,17 @@
 
     // Parallax
         $('.intro-section').parallax({
-            imageSrc: "<%= asset_path("bg-1.jpg") %>",
+            imageSrc: "<%= asset_path("20170909_112346_1080.jpg") %>",
         	speed: 0.2
         });
-        $('.services-section').parallax({
-        	imageSrc: "<%= asset_path("bg-2.jpg") %>",
-        	speed: 0.2
-    	});
-        $('.contact-section').parallax({
-        	imageSrc: "<%= asset_path("bg-3.jpg") %>",
-        	speed: 0.2
-        });    
+//        $('.services-section').parallax({
+//        	imageSrc: "<%= asset_path("") %>",
+//        	speed: 0.2
+//    	});
+//        $('.contact-section').parallax({
+//        	imageSrc: "<%= asset_path("20170909_112346_banner_3.jpg") %>",
+//        	speed: 0.2
+//        });    
 
         // jQuery Scroll Up / Back To Top Image
         $.scrollUp({

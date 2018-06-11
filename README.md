@@ -21,3 +21,4 @@ Car18 Ruby on Rails project was created on Jun 7, 2018
 * Jun 7, 2018: Wrote home controller test case
 * Jun 7, 2018: Cloned the CSS template
 * Jun 8, 2018: Finished refactor application.html.erb
+* Jun 10, 2018: Finished homepage (first draft)

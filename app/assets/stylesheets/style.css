@@ -98,12 +98,15 @@ z-index: 999;
   color: #fff;
   font-size: 70px;
   text-transform: uppercase;
-  text-shadow: 2px 2px #000;
+/*  text-shadow: 2px 2px #000; */
+  text-shadow: 2px 2px #3366ff;    
 }
 .header-content h4 {
   color: #fff;
-  font-size: 25px;
-  text-shadow: 1px 1px #333;
+/*  font-size: 25px; */
+  font-size: 40px;    
+/*  text-shadow: 1px 1px #333; */
+  text-shadow: 2px 2px #3333cc;    
 }
 .single-page-nav { text-align: center; }
 /* End Header CSS */
@@ -124,13 +127,16 @@ z-index: 999;
 }
 .feature-content-title {
     padding: 0 20px;
-    text-align: left;    
+/*    text-align: left; */
+    text-align: center;
 }
 .feature-content-description {
     padding: 0 20px 35px;
-    text-align: left;
+/*    text-align: left; */
+    text-align: center;
     color: #333333;
     margin-top: 15px;
+    font-size: 16px;
 }
 .feature-content-link {
     border-radius: 5px;
@@ -187,6 +193,16 @@ z-index: 999;
 .blog-content > p#blofr {
     padding: 8px;
 }
+
+.blog-content p {
+    font-size: 18px;
+}
+
+.blog-content ul li {
+    text-align: left;
+    font-size: 18px;
+}
+
 /* End Blog CSS */
 
 /* Start Services CSS */
@@ -373,7 +389,8 @@ input {
   color: #000;
 }
 .contact-section .container {
-  max-width: 750px;
+/*  max-width: 750px; */
+    max-width: 960px;
 }
 
 /*https://css-tricks.com/snippets/css/style-placeholder-text/*/
